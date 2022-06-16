@@ -32,7 +32,8 @@ Users should be able to:
 
 ### Screenshots
 
-![](./screenshot.jpg)
+- Desktop
+  ![](./screenshots/desktop.png)
 
 ### Links
 

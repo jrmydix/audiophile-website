@@ -14,13 +14,13 @@ const Footer = () => {
     <>
       <footer>
         <div className="footer__left">
-          <Image src={logo}></Image>
+          <Image src={logo} alt="audiophile"></Image>
 
           <p>
-            Audiophile is an all in one stop to fulfill your audio needs. We're
-            a small team of music lovers and sound specialists who are devoted
-            to helping you get the most out of personal audio. Come and visit
-            our demo facility - we’re open 7 days a week.
+            Audiophile is an all in one stop to fulfill your audio needs.
+            We&apos;re a small team of music lovers and sound specialists who
+            are devoted to helping you get the most out of personal audio. Come
+            and visit our demo facility - we&apos;re open 7 days a week.
           </p>
 
           <p className="footer__left--copyright">
@@ -59,11 +59,11 @@ const Footer = () => {
           </ul>
 
           <div className="footer__right--socials">
-            <Image src={logoFacebook}></Image>
+            <Image src={logoFacebook} alt="Follow us on Facebook"></Image>
 
-            <Image src={logoTwitter}></Image>
+            <Image src={logoTwitter} alt="Follow us on Twitter"></Image>
 
-            <Image src={logoInstagram}></Image>
+            <Image src={logoInstagram} alt="Follow us on Instagram"></Image>
           </div>
         </div>
       </footer>

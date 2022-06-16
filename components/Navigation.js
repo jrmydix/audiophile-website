@@ -11,7 +11,7 @@ const Navigation = () => {
   return (
     <>
       <header>
-        <Image src={logo}></Image>
+        <Image src={logo} alt="audiophile"></Image>
         <nav>
           <ul>
             <li>
@@ -42,7 +42,7 @@ const Navigation = () => {
             </li>
           </ul>
         </nav>
-        <Image src={cart}></Image>
+        <Image src={cart} alt="View cart"></Image>
       </header>
     </>
   );

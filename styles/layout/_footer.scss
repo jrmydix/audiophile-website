@@ -53,7 +53,7 @@ footer {
 
           &.active,
           &:hover {
-            color: #d87d4a;
+            color: var(--accent);
           }
         }
       }
