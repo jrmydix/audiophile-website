@@ -1,0 +1,46 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--bg-dark);
+  padding: 32px 165px 36px;
+  position: relative;
+
+  nav {
+    ul {
+      display: flex;
+      gap: 34px;
+
+      li {
+        list-style-type: none;
+
+        a {
+          text-decoration: none;
+          color: var(--white);
+          font-weight: 700;
+          font-size: 13px;
+          line-height: 25px;
+          letter-spacing: 2px;
+          text-transform: uppercase;
+          transition: color $transition-delay;
+
+          &.active,
+          &:hover {
+            color: #d87d4a;
+          }
+        }
+      }
+    }
+  }
+
+  &::after {
+    position: absolute;
+    bottom: 0;
+    content: "";
+    width: calc(100vw - 330px);
+    height: 1px;
+    background: var(--white);
+    mix-blend-mode: normal;
+    opacity: 0.2;
+  }
+}
