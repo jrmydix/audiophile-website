@@ -3,7 +3,7 @@ import Link from "next/link";
 const Categories = () => {
   return (
     <>
-      <div className="index__categories">
+      <div className="categories">
         <div className="category">
           <p>Headphones</p>
 
@@ -14,9 +14,9 @@ const Categories = () => {
                 <path
                   d="M1.322 1l5 5-5 5"
                   stroke="#D87D4A"
-                  stroke-width="2"
+                  strokeWidth="2"
                   fill="none"
-                  fill-rule="evenodd"
+                  fillRule="evenodd"
                 />
               </svg>
             </a>
@@ -33,9 +33,9 @@ const Categories = () => {
                 <path
                   d="M1.322 1l5 5-5 5"
                   stroke="#D87D4A"
-                  stroke-width="2"
+                  strokeWidth="2"
                   fill="none"
-                  fill-rule="evenodd"
+                  fillRule="evenodd"
                 />
               </svg>
             </a>
@@ -52,9 +52,9 @@ const Categories = () => {
                 <path
                   d="M1.322 1l5 5-5 5"
                   stroke="#D87D4A"
-                  stroke-width="2"
+                  strokeWidth="2"
                   fill="none"
-                  fill-rule="evenodd"
+                  fillRule="evenodd"
                 />
               </svg>
             </a>

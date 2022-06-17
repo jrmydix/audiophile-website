@@ -1,6 +1,7 @@
 import Link from "next/link";
 
 import Categories from "./Categories";
+import Presentation from "./Presentation";
 
 const Index = () => {
   return (
@@ -40,6 +41,8 @@ const Index = () => {
             </div>
           </div>
         </div>
+
+        <Presentation />
       </section>
     </>
   );

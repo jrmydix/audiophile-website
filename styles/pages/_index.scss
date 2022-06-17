@@ -68,92 +68,11 @@
 .index {
   padding: 200px 165px;
 
-  &__categories {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    gap: 30px;
-    margin-bottom: 168px;
-
-    .category {
-      position: relative;
-      background: var(--gray);
-      border-radius: 8px;
-      width: 350px;
-      height: 204px;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      padding-top: 116px;
-
-      p,
-      a {
-        text-transform: uppercase;
-        font-weight: 700;
-        color: var(--black);
-      }
-
-      p {
-        font-size: 18px;
-        line-height: 25px;
-        letter-spacing: 1.28571px;
-        color: var(--black);
-        margin-bottom: 15px;
-      }
-
-      a {
-        text-decoration: none;
-        font-size: 13px;
-        line-height: 18px;
-        letter-spacing: 1px;
-        mix-blend-mode: normal;
-        opacity: 0.5;
-        display: flex;
-        align-items: center;
-
-        svg {
-          margin-left: 13px;
-        }
-      }
-
-      &:nth-child(1) {
-        &::before {
-          background: url(../../public/assets/shared/desktop/image-category-thumbnail-headphones.png);
-          background-position: center;
-          background-size: cover;
-        }
-      }
-
-      &:nth-child(2) {
-        &::before {
-          background: url(../../public/assets/shared/desktop/image-category-thumbnail-speakers.png);
-          background-position: center;
-          background-size: cover;
-        }
-      }
-
-      &:nth-child(3) {
-        &::before {
-          background: url(../../public/assets/shared/desktop/image-category-thumbnail-earphones.png);
-          background-position: center;
-          background-size: cover;
-        }
-      }
-
-      &::before {
-        width: 160px;
-        height: 160px;
-        content: "";
-        position: absolute;
-        top: -55px;
-      }
-    }
-  }
-
   &__showcase {
     display: flex;
     flex-direction: column;
     gap: 48px;
+    margin-bottom: 200px;
 
     .product {
       border-radius: 8px;
@@ -174,6 +93,16 @@
       .big {
         margin-left: auto;
         max-width: 349px;
+
+        p:nth-child(2) {
+          font-weight: 500;
+          font-size: 15px;
+          line-height: 25px;
+          color: var(--white);
+          mix-blend-mode: normal;
+          opacity: 0.75;
+          margin-bottom: 16px;
+        }
 
         .product--name {
           font-weight: 700;

@@ -1,0 +1,41 @@
+.presentation {
+  display: grid;
+  align-items: center;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 30px;
+
+  .left {
+    max-width: 445px;
+  }
+
+  .right {
+    justify-self: flex-end;
+  }
+
+  p:nth-child(1) {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 44px;
+    letter-spacing: 1.42857px;
+    text-transform: uppercase;
+    color: var(--black);
+    margin-bottom: 32px;
+
+    span {
+      color: var(--accent);
+    }
+  }
+
+  p:nth-child(2) {
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 25px;
+    color: var(--black);
+    mix-blend-mode: normal;
+    opacity: 0.5;
+  }
+
+  img {
+    border-radius: 8px;
+  }
+}
