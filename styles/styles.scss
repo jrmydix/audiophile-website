@@ -5,8 +5,11 @@
 
 @import "./components/categories";
 @import "./components/presentation";
+@import "./components/page-header";
 
 @import "./layout/navigation";
 @import "./layout/footer";
 
 @import "./pages/index";
+
+@import "./themes/theme";
