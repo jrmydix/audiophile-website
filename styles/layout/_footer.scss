@@ -1,8 +1,19 @@
 footer {
+  position: relative;
   padding: 75px 165px 48px;
   background-color: #101010;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
+
+  &::before {
+    position: absolute;
+    top: 0;
+    left: 165px;
+    content: "";
+    width: 101px;
+    height: 4px;
+    background: var(--accent);
+  }
 }
 
 .footer {

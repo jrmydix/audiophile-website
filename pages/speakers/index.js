@@ -1,8 +1,13 @@
 import Head from "next/head";
+import Image from "next/image";
+import Link from "next/link";
 
 import PageHeader from "../../components/PageHeader";
 import Categories from "../../components/Categories";
 import Presentation from "../../components/Presentation";
+
+import imgZX9 from "../../public/assets/product-zx9-speaker/desktop/image-category-page-preview.jpg";
+import imgZX7 from "../../public/assets/product-zx7-speaker/desktop/image-category-page-preview.jpg";
 
 export default function Speakers() {
   return (
@@ -16,6 +21,49 @@ export default function Speakers() {
       <PageHeader />
 
       <section>
+        <div className="product-showcase">
+          <div className="product-showcase__product">
+            <div>
+              <Image src={imgZX9}></Image>
+            </div>
+
+            <div className="product-showcase__product--text">
+              <p className="text__new">NEW PRODUCT</p>
+              <p className="text__title">ZX9 SPEAKER</p>
+              <p className="text__description">
+                Upgrade your sound system with the all new ZX9 active speaker.
+                It’s a bookshelf speaker system that offers truly wireless
+                connectivity -- creating new possibilities for more pleasing and
+                practical audio setups.
+              </p>
+
+              <Link href="">
+                <a>See product</a>
+              </Link>
+            </div>
+          </div>
+
+          <div className="product-showcase__product">
+            <div className="product-showcase__product--text">
+              <p className="text__title">ZX7 SPEAKER</p>
+              <p className="text__description">
+                Stream high quality sound wirelessly with minimal loss. The ZX7
+                bookshelf speaker uses high-end audiophile components that
+                represents the top of the line powered speakers for home or
+                studio use.
+              </p>
+
+              <Link href="">
+                <a>See product</a>
+              </Link>
+            </div>
+
+            <div>
+              <Image src={imgZX7}></Image>
+            </div>
+          </div>
+        </div>
+
         <Categories />
         <Presentation />
       </section>
