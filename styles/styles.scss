@@ -3,6 +3,7 @@
 @import "./base/reset";
 @import "./base/typography";
 
+@import "./components/buttons";
 @import "./components/categories";
 @import "./components/presentation";
 @import "./components/page-header";
@@ -12,5 +13,6 @@
 
 @import "./pages/index";
 @import "./pages/category";
+@import "./pages/checkout";
 
 @import "./themes/theme";

@@ -6,7 +6,7 @@ import Presentation from "./Presentation";
 const Index = () => {
   return (
     <>
-      <section>
+      <section className="index">
         <Categories />
 
         <div className="index__showcase">

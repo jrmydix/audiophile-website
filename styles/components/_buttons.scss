@@ -1,0 +1,12 @@
+.btn {
+  &__go-back {
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 25px;
+    color: var(--black);
+    mix-blend-mode: normal;
+    opacity: 0.5;
+    text-transform: capitalize;
+    text-decoration: none;
+  }
+}

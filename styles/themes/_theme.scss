@@ -3,5 +3,13 @@ body {
 }
 
 section {
-  padding: 200px 165px;
+  padding: 160px 165px;
+
+  &.index {
+    padding: 200px 165px;
+  }
+
+  &.go-back {
+    padding-top: 80px;
+  }
 }

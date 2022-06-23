@@ -11,7 +11,7 @@ const Navigation = () => {
   return (
     <>
       <header>
-        <Image src={logo} alt="audiophile"></Image>
+        <Link href="/"><a><Image src={logo} alt="audiophile"></Image></a></Link>
         <nav>
           <ul>
             <li>
@@ -42,7 +42,9 @@ const Navigation = () => {
             </li>
           </ul>
         </nav>
-        <Image src={cart} alt="View cart"></Image>
+        <div className="header__cart">
+          <Image src={cart} alt="View cart"></Image>
+        </div>
       </header>
     </>
   );

@@ -26,7 +26,7 @@ header {
 
           &.active,
           &:hover {
-            color:  var(--accent);
+            color: var(--accent);
           }
         }
       }
@@ -42,5 +42,11 @@ header {
     background: var(--white);
     mix-blend-mode: normal;
     opacity: 0.2;
+  }
+}
+
+.header {
+  &__cart {
+    margin-left: 120px;
   }
 }
