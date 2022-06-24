@@ -22,7 +22,7 @@ header {
           line-height: 25px;
           letter-spacing: 2px;
           text-transform: uppercase;
-          transition: color $transition-delay;
+          transition: color var(--transition-delay);
 
           &.active,
           &:hover {

@@ -1,7 +1,7 @@
 .hero {
   background-image: url(../../public/assets/home/desktop/image-hero.jpg);
   background-color: var(--bg-dark);
-  background-position: bottom;
+  background-position: center;
   background-repeat: no-repeat;
   min-height: calc(100vh - 85px);
   display: flex;
@@ -57,7 +57,7 @@
     letter-spacing: 1px;
     text-transform: uppercase;
     text-decoration: none;
-    transition: background $transition-delay;
+    transition: background var(--transition-delay);
 
     &:hover {
       background: var(--accent-hover);
@@ -73,7 +73,7 @@
     margin-bottom: 200px;
 
     .product {
-      border-radius: 8px;
+      border-radius: var(--border-radius);
 
       &.text,
       .big {
