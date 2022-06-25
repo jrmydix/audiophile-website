@@ -7,6 +7,10 @@ const Presentation = () => {
     <>
       <div className="presentation">
         <div className="left">
+          <Image src={presentationImg}></Image>
+        </div>
+
+        <div className="right">
           <p>
             Bringing you the <span>best</span> audio gear
           </p>
@@ -18,10 +22,6 @@ const Presentation = () => {
             products. Stop by our store to meet some of the fantastic people who
             make Audiophile the best place to buy your portable audio equipment.
           </p>
-        </div>
-
-        <div className="right">
-          <Image src={presentationImg}></Image>
         </div>
       </div>
     </>
