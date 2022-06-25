@@ -1,12 +1,12 @@
 body {
-  background-color: #fafafa;
+  background-color: var(--bg);
 }
 
 section {
-  padding: 160px 165px;
+  padding: 160px var(--body-padding);
 
   &.index {
-    padding: 200px 165px;
+    padding: 200px var(--body-padding);
   }
 
   &.go-back {

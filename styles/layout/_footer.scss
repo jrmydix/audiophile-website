@@ -117,7 +117,7 @@ footer {
 
 @media (min-width: 992px) {
   footer {
-    padding: 75px 165px 48px;
+    padding: 75px var(--body-padding) 48px;
     gap: 36px;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -132,7 +132,7 @@ footer {
     }
 
     &::before {
-      left: 165px;
+      left: var(--body-padding);
     }
   }
 
@@ -143,7 +143,7 @@ footer {
 
     &__copyright {
       position: absolute;
-      left: 165px;
+      left: var(--body-padding);
       bottom: 48px;
       margin-bottom: 0;
     }

@@ -8,4 +8,17 @@
   --black: #000;
   --transition-delay: 0.2s;
   --border-radius: 8px;
+  --body-padding: 24px;
+}
+
+@media (min-width: 768px) {
+  :root {
+    --body-padding: 40px;
+  }
+}
+
+@media (min-width: 992px) {
+  :root {
+    --body-padding: calc((100vw - 1110px) / 2);
+  }
 }
