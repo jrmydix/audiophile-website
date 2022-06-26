@@ -131,6 +131,12 @@
         padding: 15px 32px;
         border: 1px solid var(--black);
         text-decoration: none;
+        transition: background var(--transition-delay), border-color var(--transition-delay), color var(--transition-delay);
+      
+        &:hover {
+          background: var(--black);
+          color: var(--white);
+        }
       }
 
       &:nth-child(1) {
@@ -145,6 +151,11 @@
         .product--details {
           color: var(--white);
           background: var(--black);
+
+          &:hover {
+            background: #4c4c4c;
+            border-color: #4c4c4c;
+          }
         }
       }
 

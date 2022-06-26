@@ -26,6 +26,11 @@
       padding: 16px 30px;
       text-decoration: none;
       margin-right: auto;
+      transition: background var(--transition-delay);
+
+      &:hover {
+        background: var(--accent-hover);
+      }
     }
 
     &--text {
@@ -34,6 +39,10 @@
       justify-content: center;
       flex-direction: column;
       gap: 16px;
+
+      &:nth-child(even) {
+        margin-left: auto;
+      }
 
       .text__ {
         &new {
