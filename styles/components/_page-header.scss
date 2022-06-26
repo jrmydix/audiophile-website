@@ -1,15 +1,32 @@
 .page-header {
-  padding: 96px 0;
+  padding: 32px 0;
   background-color: var(--bg-dark);
 
   h1 {
     text-transform: uppercase;
     font-weight: 700;
-    font-size: 40px;
-    line-height: 44px;
+    font-size: 28px;
+    line-height: 38px;
     text-align: center;
-    letter-spacing: 1.42857px;
-    text-transform: uppercase;
+    letter-spacing: 2px;
     color: var(--white);
+  }
+}
+
+@media (min-width: 768px) {
+  .page-header {
+    padding: 105px 0 96px;
+
+    h1 {
+      font-size: 40px;
+      line-height: 44px;
+      letter-spacing: 1.42857px;
+    }
+  }
+}
+
+@media (min-width: 992px) {
+  .page-header {
+    padding: 96px 0;
   }
 }
