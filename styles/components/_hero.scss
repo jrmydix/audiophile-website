@@ -1,19 +1,22 @@
+section.hero {
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
 .hero {
-  background-image: url(../../public/assets/home/desktop/image-hero.jpg);
+  background-image: url(../../public/assets/home/mobile/image-header.jpg);
   background-color: var(--bg-dark);
-  background-position: center;
+  background-position: bottom;
   background-repeat: no-repeat;
-  min-height: calc(100vh - 85px);
+  background-size: cover;
+  min-height: calc(100vh - 92.2px);
   display: flex;
   flex-direction: column;
   justify-content: center;
-  gap: 24px;
-  border-bottom-left-radius: 8px;
-  border-bottom-right-radius: 8px;
+  align-items: center;
+  text-align: center;
 
   &__text {
-    max-width: 398px;
-
     &--new-product {
       font-weight: 400;
       font-size: 14px;
@@ -23,7 +26,7 @@
       color: var(--white);
       mix-blend-mode: normal;
       opacity: 0.5;
-      margin-bottom: 24px;
+      margin-bottom: 16px;
     }
 
     &--description {
@@ -33,15 +36,15 @@
       color: var(--white);
       mix-blend-mode: normal;
       opacity: 0.75;
-      margin-bottom: 40px;
+      margin-bottom: 43px;
     }
   }
 
   h1 {
     font-weight: 700;
-    font-size: 56px;
-    line-height: 58px;
-    letter-spacing: 2px;
+    font-size: 36px;
+    line-height: 40px;
+    letter-spacing: 1.28571px;
     text-transform: uppercase;
     color: var(--white);
     margin-bottom: 24px;
@@ -66,7 +69,44 @@
 }
 
 @media (min-width: 768px) {
+  .hero {
+    background-image: url(../../public/assets/home/tablet/image-header.jpg);
+    background-color: var(--bg-dark);
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    &__text {
+      max-width: 398px;
+
+      &--new-product {
+        margin-bottom: 24px;
+      }
+
+      &--description {
+        margin-bottom: 55px;
+      }
+    }
+
+    h1 {
+      font-size: 56px;
+      line-height: 58px;
+      letter-spacing: 2px;
+      margin-bottom: 24px;
+    }
+  }
 }
 
 @media (min-width: 992px) {
+  .hero {
+    background-image: url(../../public/assets/home/desktop/image-hero.jpg);
+    background-color: var(--bg-dark);
+    background-position: bottom;
+    background-repeat: no-repeat;
+    min-height: calc(100vh - 85px);
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    align-items: unset;
+    text-align: unset;
+  }
 }
