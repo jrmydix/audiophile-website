@@ -33,7 +33,16 @@ Users should be able to:
 ### Screenshots
 
 - Desktop
+
   ![](./screenshots/desktop.png)
+
+- Tablet
+
+  ![](./screenshots/tablet.png)
+
+- Mobile
+
+  ![](./screenshots/mobile.png)
 
 ### Links
 
@@ -49,7 +58,7 @@ Users should be able to:
 
 ## Author
 
-- Website - [Jérémy CUSIN-MERMET](https://jeremy-cusinmermet.xyz/)
+- Website - [Jérémy CUSIN-MERMET](https://jrmy.tech/)
 - Frontend Mentor - [@jrmydix](https://www.frontendmentor.io/profile/jrmydix)
 - LinkedIn - [jeremy-cusinmermet](https://www.linkedin.com/in/jeremy-cusinmermet/)
 - Github - [jrmydix](https://github.com/jrmydix)
